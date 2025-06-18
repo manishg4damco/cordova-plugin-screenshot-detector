@@ -1,0 +1,11 @@
+<plugin id="cordova-plugin-screenshot-detector" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins" xmlns:ios="http://apache.org/cordova/ns/plugins/ios">
+  <name>ScreenshotDetector</name>
+  <platform name="ios">
+    <source-file src="src/ios/ScreenshotDetector.swift" />
+    <config-file parent="/*" target="config.xml">
+      <feature name="ScreenshotDetector">
+        <param name="ios-package" value="ScreenshotDetector" />
+      </feature>
+    </config-file>
+  </platform>
+</plugin>
